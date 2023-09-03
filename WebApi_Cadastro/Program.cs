@@ -1,7 +1,5 @@
 using Microsoft.EntityFrameworkCore;
 using WebApi_Cadastro.DataContext;
-using WebApi_Cadastro.DataContext;
-using WebApi_Cadastro.Service.UsuarioService;
 using WebApi_Cadastro.Service.UsuarioService;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -34,7 +32,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-app.UseCors("funcionariosApp");
+app.UseCors("usuarriossApp");
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
