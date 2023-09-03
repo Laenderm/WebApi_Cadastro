@@ -32,7 +32,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-app.UseCors("usuarriossApp");
+app.UseCors("usuarriosApp");
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
